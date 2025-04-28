@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 160px 165px 0px;
+}
+
+.container .cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.cards .card {
+  width: 350px;
+  height: 204px;
+  border-radius: 8px;
+  background-color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card img {
+  position: absolute;
+  padding-bottom: 206px;
+  display: flex;
+}
+
+.card h3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.29px;
+  text-transform: uppercase;
+  padding-top: 56px;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--black);
+  opacity: 50%;
+  margin-top: 13px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+}
+
+.card a:hover {
+  padding-right: 15.5px;
+  color: var(--orange);
+  border-radius: 290px;
+  border-right: 3.5px solid var(--orange);
+}

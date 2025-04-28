@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 160px 165px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info span{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 10px;
+    color: var(--orange);
+    margin-bottom: 16px;
+}
+
+.info .heroTitle{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1.43px;
+    color: var(--black);
+    margin-bottom: 32px;
+    text-transform:uppercase;
+}
+
+
+.info .heroParag{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--black);
+    margin-bottom: 40px;
+    width: 445px;
+}
+
+.info .btn{
+    width: 160px;
+    height: 48px;
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+}
+
+.info .btn:hover{
+    background-color: var(--lightOrange);
+}

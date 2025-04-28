@@ -1,42 +1,22 @@
-import React from 'react'
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Hero1 from './components/Hero1/Hero1';
+import Hero2 from './components/Hero2/Hero2';
+import Hero3 from './components/Hero3/Hero3';
+import Hero4 from './components/Hero4/Hero4';
+import Hero5 from './components/Hero5/Hero5';
+
 
 export default function App() {
-
-  const [counter, setCounter] = useState(0); 
-
   return (
-    <div>
-      <button
-       onClick={() => {
-        setCounter(function (prev) {
-          console.log("Eski holat:" , prev);
-          return prev - 1;
-        });
-        setCounter(function (prev) {
-          console.log("Eski holat: ", prev);
-          return prev - 1;
-        });
-        setCounter(function (prev) {
-          console.log("Eski holat: ", prev);
-          return  prev - 1;
-        });
-        setCounter(function (prev) {
-          console.log("Eski holat: ", prev);
-          return prev - 1;
-        })
-      }}
-      >
-        -
-      </button>
-      <mark>{counter}</mark>
-      <button
-      onClick={() =>{
-        setCounter(function (prev) {
-          console.log(".");
-          return prev + 1; 
-        })
-      }}
-      >+</button>
-    </div>
+    <>
+    <Header/>
+    <Hero1/>
+    <Hero2/>
+    <Hero3/>
+    <Hero4/>
+    <Hero5/>
+    <Footer/>
+    </>
   )
 }
